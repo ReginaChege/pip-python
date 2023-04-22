@@ -61,6 +61,8 @@ def odd():
             print(f"{n} is not divisible by 2")    
 odd()
 
+# control flow
+
 # Write a Python function that takes a list of integers as input and returns the product of all the
 #  numbers in the list
 def list_integer(numberss):
@@ -102,14 +104,14 @@ print(stringSorted)
 # Write a Python function that takes a string as input and returns a list
 #  of all the words in the string that have more than three letters.
 def long_words(string):
-    words=string.split
+    string=string.split()
     long_words=[]
     for word in string:
         if len(word)>3:
             long_words.append(word)
             return long_words
 
-string="The begining is always today"
+string="The begining is bad"
 output=long_words(string)
 print(output)
 
