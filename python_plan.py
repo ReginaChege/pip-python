@@ -104,13 +104,13 @@ print(stringSorted)
 def long_words(string):
     words=string.split
     long_words=[]
-    for word in words:
+    for word in string:
         if len(word)>3:
             long_words.append(word)
             return long_words
 
-String="The begining is always today"
-output=long_words(String)
+string="The begining is always today"
+output=long_words(string)
 print(output)
 
 
